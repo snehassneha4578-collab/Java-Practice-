@@ -1,4 +1,4 @@
-class PrintOneToTen
+class TableOfFive
 {
     public static void main(String[] args)
     {
@@ -6,7 +6,7 @@ class PrintOneToTen
 
         do
         {
-            System.out.println(i);
+            System.out.println("5 x " + i + " = " + (5 * i));
             i++;
         }
         while(i <= 10);

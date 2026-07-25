@@ -1,4 +1,4 @@
-class PrintOneToTen
+class PrintNumbers1to5
 {
     public static void main(String[] args)
     {
@@ -9,6 +9,6 @@ class PrintOneToTen
             System.out.println(i);
             i++;
         }
-        while(i <= 10);
+        while(i <= 5);
     }
 }

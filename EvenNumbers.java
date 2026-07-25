@@ -4,10 +4,11 @@ class EvenNumbers
     {
         int i = 2;
 
-        while(i <= 10)
+        do
         {
             System.out.println(i);
-            i = i + 2;
+            i += 2;
         }
+        while(i <= 20);
     }
 }
